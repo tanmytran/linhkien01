@@ -1,0 +1,1296 @@
+# Copyright (C) 2013 ProteusThemes
+# This file is distributed under the GPL 2.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: Webmarket WP Theme 1.0.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/webmarket\n"
+"POT-Creation-Date: 2014-04-18 11:52:36+00:00\n"
+"PO-Revision-Date: 2014-05-05 08:26+0100\n"
+"Last-Translator: Primoz Cigler <primoz@proteusnet.com>\n"
+"Language-Team: ProteusThemes <primoz@proteusnet.com>\n"
+"Language: sl_SI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
+"%100==4 ? 2 : 3);\n"
+
+#: 404.php:9 inc/helpers.php:86
+msgid "Error 404"
+msgstr "Napaka 404"
+
+#: 404.php:15
+msgid ""
+"Looks like something went wrong! The page you were looking for is not here."
+msgstr "Nekaj je šlo narobe. Stran, ko jo iščeš ne obstaja."
+
+#: 404.php:18
+msgctxt "%s is for the link to home page, wrap the word Home in two %s"
+msgid "Go %sHome%s or try to search:"
+msgstr "Pojdi %sDomov%s ali poskusi z iskanjem:"
+
+#: Envato-WordPress-Theme-Updater/class-envato-protected-api.php:67
+msgid "Please enter your Envato Marketplace Username."
+msgstr "Please enter your Envato Marketplace Username."
+
+#: Envato-WordPress-Theme-Updater/class-envato-protected-api.php:71
+msgid "Please enter your Envato Marketplace API Key."
+msgstr "Please enter your Envato Marketplace API Key."
+
+#: Envato-WordPress-Theme-Updater/class-envato-protected-api.php:96
+msgid "The API \"set\" is a required parameter."
+msgstr "The API \"set\" is a required parameter."
+
+#: Envato-WordPress-Theme-Updater/class-envato-protected-api.php:167
+msgid "The Envato Marketplace \"item ID\" is a required parameter."
+msgstr "The Envato Marketplace \"item ID\" is a required parameter."
+
+#: archive.php:49 search.php:49
+msgid "Continue Reading"
+msgstr "Nadaljuj branje"
+
+#: comments.php:42
+msgid "&larr; Older Comments"
+msgstr "&larr; Starejši komentarji"
+
+#: comments.php:43
+msgid "Newer Comments &rarr;"
+msgstr "Novejši komentarji &rarr;"
+
+#: comments.php:52
+msgid "Leave a Comment"
+msgstr "Pusti komentar"
+
+#: comments.php:68
+msgid "SUBMIT A COMMENT"
+msgstr "POŠLJI KOMENTAR"
+
+#: comments.php:74 woocommerce/single-product-reviews.php:62
+msgid "Name"
+msgstr "Ime"
+
+#: comments.php:75 woocommerce/single-product-reviews.php:64
+msgid "Email"
+msgstr "Email"
+
+#: comments.php:76
+msgid "Website"
+msgstr "Spletna stran"
+
+#: comments.php:86
+msgid "Comments are disabled for this post"
+msgstr "Komentarji so onemogočeni za ta post"
+
+#: comments.php:94
+msgid "Comments not shown for password protected posts"
+msgstr "Komentarji niso prikazani za zaklenjene objave"
+
+#: content-breadcrumbs.php:26 inc/helpers.php:81
+msgid "Home Page"
+msgstr "Prva stran"
+
+#: content-title.php:23
+msgid "No comments"
+msgstr "Ni komentarjev"
+
+#: content-title.php:24
+msgid "One comment"
+msgstr "En komentar"
+
+#: content-title.php:25
+msgctxt "translators: % represents the number, you must include it"
+msgid "% comments"
+msgstr "% komentarjev"
+
+#: content-title.php:26
+msgid "Posted in"
+msgstr "Objavljeno v"
+
+#: content-title.php:26
+msgid "Tagged"
+msgstr "Označeno"
+
+#: header.php:60
+msgid "My Account"
+msgstr "Moj račun"
+
+#: header.php:64
+msgid "Login / Register"
+msgstr "Prijava / Registracija"
+
+#: header.php:90
+msgctxt ""
+"Three %s represent the HTML markup, must be included. First and last %s are "
+"for bold tags, the middle is for the arrow."
+msgid "Define your top bar navigation in %sApperance %s Menus%s"
+msgstr "Definiraj zgornjo navigacijo v %sApperance %s Menus%s"
+
+#: header.php:99
+msgid "Cart (%d)"
+msgstr "Košarica (%d)"
+
+#: inc/custom-comments.php:28
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s ob %2$s"
+
+#: inc/custom-comments.php:34
+msgid "Edit"
+msgstr "Uredi"
+
+#: inc/custom-comments.php:38
+msgid "Your comment is awaiting moderation."
+msgstr "Tvoj komentar čaka odobritev."
+
+#: inc/helpers.php:62
+msgid "Page %s"
+msgstr "Stran %s"
+
+#: inc/helpers.php:82
+msgid "Archive by Category &quot;%s&quot;"
+msgstr "Archive by Category &quot;%s&quot;"
+
+#: inc/helpers.php:83
+msgid "Search Results for &quot;%s&quot; Query"
+msgstr "Search Results for &quot;%s&quot; Query"
+
+#: inc/helpers.php:84
+msgid "Posts Tagged &quot;%s&quot;"
+msgstr "Posts Tagged &quot;%s&quot;"
+
+#: inc/helpers.php:85
+msgid "Articles Posted by %s"
+msgstr "Articles Posted by %s"
+
+#: inc/helpers.php:157
+msgid "No products found"
+msgstr "Ne najdem produktov"
+
+#: inc/helpers.php:215
+msgid "Page"
+msgstr "Stran"
+
+#: inc/ot-meta-boxes.php:19
+msgid "Webmarket Options"
+msgstr "Webmarket Nastavitve"
+
+#: inc/ot-meta-boxes.php:20
+msgid "Options specific to Webmarket theme"
+msgstr "Nastavitve specifične za Webmarket"
+
+#: inc/ot-meta-boxes.php:33 inc/ot-meta-boxes.php:73
+msgid "Position of the sidebar"
+msgstr "Pozicija sidebar-a"
+
+#: inc/ot-meta-boxes.php:34
+msgid ""
+"Position the sidebar for this particular page to the left, right or do not "
+"display it at all."
+msgstr ""
+"Position the sidebar for this particular page to the left, right or do not "
+"display it at all."
+
+#: inc/ot-meta-boxes.php:41 inc/ot-meta-boxes.php:85
+#: inc/theme-customizer.php:209
+msgid "Right"
+msgstr "Desno"
+
+#: inc/ot-meta-boxes.php:45 inc/ot-meta-boxes.php:89
+#: inc/theme-customizer.php:208
+msgid "Left"
+msgstr "Levo"
+
+#: inc/ot-meta-boxes.php:49 inc/ot-meta-boxes.php:93
+msgid "No sidebar"
+msgstr "Ni sidebara"
+
+#: inc/ot-meta-boxes.php:55
+msgid "Slider Revolution alias"
+msgstr "Slider Revolution alias"
+
+#: inc/ot-meta-boxes.php:56
+msgid ""
+"Only applies to the templates \"Front Page with Revolution Slider\" and "
+"\"Front page with Content\". Paste the alias of the slider you created in "
+"the Revolution Slider plugin to this box (only <a href=\"https://www.diigo."
+"com/item/image/3rli1/s9bj?size=o\" target=\"_blank\">alias</a>, not the "
+"whole shortcode)."
+msgstr ""
+"Only applies to the templates \"Front Page with Revolution Slider\" and "
+"\"Front page with Content\". Paste the alias of the slider you created in "
+"the Revolution Slider plugin to this box (only <a href=\"https://www.diigo."
+"com/item/image/3rli1/s9bj?size=o\" target=\"_blank\">alias</a>, not the "
+"whole shortcode)."
+
+#: inc/ot-meta-boxes.php:74
+msgid ""
+"Position the sidebar for this particular post to the left, right or do not "
+"display it at all."
+msgstr ""
+"Position the sidebar for this particular post to the left, right or do not "
+"display it at all."
+
+#: inc/ot-meta-boxes.php:81
+msgid "Default (the same as blog layout)"
+msgstr "Default (the same as blog layout)"
+
+#: inc/register-sidebars.php:12
+msgid "Blog Sidebar"
+msgstr "Blog Sidebar"
+
+#: inc/register-sidebars.php:14
+msgid "Sidebar on the blog layout"
+msgstr "Sidebar on the blog layout"
+
+#: inc/register-sidebars.php:27
+msgid "Regular Page Sidebar"
+msgstr "Regular Page Sidebar"
+
+#: inc/register-sidebars.php:29
+msgid "Sidebar on the regular page"
+msgstr "Sidebar on the regular page"
+
+#: inc/register-sidebars.php:42
+msgid "Shop Filter Sidebar"
+msgstr "Shop Filter Sidebar"
+
+#: inc/register-sidebars.php:44
+msgid "Sidebar on the shop page"
+msgstr "Sidebar on the shop page"
+
+#: inc/register-sidebars.php:57
+#, fuzzy
+msgid "Single Product Sidebar"
+msgstr "Regular Page Sidebar"
+
+#: inc/register-sidebars.php:59
+#, fuzzy
+msgid "Sidebar on the single product page"
+msgstr "Sidebar row 1 on the front page"
+
+#: inc/register-sidebars.php:72
+msgid "Home Page - Row One"
+msgstr "Home Page - Row One"
+
+#: inc/register-sidebars.php:74
+msgid "Sidebar row 1 on the front page"
+msgstr "Sidebar row 1 on the front page"
+
+#: inc/register-sidebars.php:86
+msgid "Home Page - Row Two"
+msgstr "Home Page - Row Two"
+
+#: inc/register-sidebars.php:88
+msgid "Sidebar row 2 on the front page"
+msgstr "Sidebar row 2 on the front page"
+
+#: inc/register-sidebars.php:100
+msgid "Home Page - Row Three"
+msgstr "Home Page - Row Three"
+
+#: inc/register-sidebars.php:102
+msgid "Sidebar row 3 on the front page"
+msgstr "Sidebar row 3 on the front page"
+
+#: inc/register-sidebars.php:113
+msgid "Home Page - Row Four"
+msgstr "Home Page - Row Four"
+
+#: inc/register-sidebars.php:115
+msgid "Sidebar under the latest news on the homepage"
+msgstr "Sidebar under the latest news on the homepage"
+
+#: inc/register-sidebars.php:126
+msgid "Top Footer"
+msgstr "Top Footer"
+
+#: inc/register-sidebars.php:128
+msgid "First footer area - accepts 3 widgets"
+msgstr "First footer area - accepts 3 widgets"
+
+#: inc/register-sidebars.php:139
+msgid "Bottom Footer"
+msgstr "Bottom Footer"
+
+#: inc/register-sidebars.php:141
+msgid "Second footer area - accepts 4 widgets"
+msgstr "Second footer area - accepts 4 widgets"
+
+#: inc/template-tags.php:22
+msgid "CART"
+msgstr "KOŠARICA"
+
+#: inc/template-tags.php:32
+msgid "No products in the cart."
+msgstr "Ni produktov v košarici."
+
+#: inc/template-tags.php:42
+#, fuzzy
+msgid "And %d more"
+msgstr "Beri dalje"
+
+#: inc/template-tags.php:77
+msgid "Available on backorder"
+msgstr "Na voljo tudi v prednaročilu"
+
+#: inc/template-tags.php:82
+msgid "Qty:"
+msgstr "Količina:"
+
+#: inc/template-tags.php:84
+msgid "Remove this item"
+msgstr "Odstrani ta izdelek"
+
+#: inc/template-tags.php:105
+msgid "Subtotal:"
+msgstr "Skupaj:"
+
+#: inc/template-tags.php:111
+msgid "CHECKOUT"
+msgstr "NA BLAGAJNO"
+
+#: inc/theme-customizer.php:62
+msgid "Appearance"
+msgstr "Izgled"
+
+#: inc/theme-customizer.php:63
+msgid "Appearance for the Webmarket theme"
+msgstr "Izgled za Webmarket theme"
+
+#: inc/theme-customizer.php:68
+#, fuzzy
+msgid "Shop"
+msgstr "Trgovina"
+
+#: inc/theme-customizer.php:69
+#, fuzzy
+msgid "Shop settings"
+msgstr "Nastavitve za shop stran"
+
+#: inc/theme-customizer.php:74
+msgid "Social Icons"
+msgstr "Socialne ikone"
+
+#: inc/theme-customizer.php:75
+msgid ""
+"Insert your link (the whole URL with <code>http(s)://</code>) for specific "
+"icon to appear"
+msgstr ""
+"Insert your link (the whole URL with <code>http(s)://</code>) for specific "
+"icon to appear"
+
+#: inc/theme-customizer.php:90
+msgid "Show tagline in the header?"
+msgstr "Prikaži tagline v glavi?"
+
+#: inc/theme-customizer.php:95 inc/theme-customizer.php:180
+#: inc/theme-customizer.php:222 inc/theme-customizer.php:270
+msgid "Yes"
+msgstr "Ja"
+
+#: inc/theme-customizer.php:96 inc/theme-customizer.php:181
+#: inc/theme-customizer.php:207 inc/theme-customizer.php:223
+#: inc/theme-customizer.php:271
+msgid "No"
+msgstr "Ne"
+
+#: inc/theme-customizer.php:104
+msgid "Blog Title"
+msgstr "Naslov bloga"
+
+#: inc/theme-customizer.php:113
+msgid "Blog Tagline"
+msgstr "Podnaslov bloga"
+
+#: inc/theme-customizer.php:123
+msgid "Shop Sidebar Title"
+msgstr "Shop Sidebar Title"
+
+#: inc/theme-customizer.php:134
+msgid "Logo image (recommended dimensions: 200 x 50)"
+msgstr "Logo image (recommended dimensions: 200 x 50)"
+
+#: inc/theme-customizer.php:143
+msgid "Favicon image (16 x 16 px), format .ico"
+msgstr "Favicon image (16 x 16 px), format .ico"
+
+#: inc/theme-customizer.php:152
+msgid "Boxed or wide version?"
+msgstr "Škatlasta ali široka verzija?"
+
+#: inc/theme-customizer.php:157
+msgid "Wide"
+msgstr "Široka"
+
+#: inc/theme-customizer.php:158
+msgid "Boxed"
+msgstr "Škatlasta"
+
+#: inc/theme-customizer.php:166
+msgid "Background pattern (only for boxed version)"
+msgstr "Background pattern (only for boxed version)"
+
+#: inc/theme-customizer.php:175
+msgid "Display latest news on the front page"
+msgstr "Display latest news on the front page"
+
+#: inc/theme-customizer.php:192
+msgid "Number of products per page"
+msgstr "Number of products per page"
+
+#: inc/theme-customizer.php:202
+#, fuzzy
+msgid "Show sidebar on single product page"
+msgstr "Sidebar on the regular page"
+
+#: inc/theme-customizer.php:217
+msgid "Show stock status for the products?"
+msgstr ""
+
+#: inc/theme-customizer.php:231
+msgid "Info text in shopping cart dropdown"
+msgstr ""
+
+#: inc/theme-customizer.php:243
+msgid "Primary Theme Color"
+msgstr "Primary Theme Color"
+
+#: inc/theme-customizer.php:252
+msgid "Secondary Theme Color"
+msgstr "Secondary Theme Color"
+
+#: inc/theme-customizer.php:264
+msgid "Open the icons in the new window?"
+msgstr "Open the icons in the new window?"
+
+#: inc/widgets/widget-best-selling-products.php:23
+msgid "Grid of the best selling products for the home page"
+msgstr "Grid of the best selling products for the home page"
+
+#: inc/widgets/widget-best-selling-products.php:25
+msgid "Webmarket: Best Selling Products"
+msgstr "Webmarket: Best Selling Products"
+
+#: inc/widgets/widget-best-selling-products.php:29
+#: inc/widgets/widget-featured-products.php:29
+#: inc/widgets/widget-new-products-grid.php:29
+#, fuzzy
+msgid "Products"
+msgstr "Ne najdem produktov"
+
+#: inc/widgets/widget-best-selling-products.php:30
+#: inc/widgets/widget-featured-products.php:30
+#: inc/widgets/widget-new-products-grid.php:30
+#, fuzzy
+msgid "Title"
+msgstr "Naslov:"
+
+#: inc/widgets/widget-best-selling-products.php:38
+#: inc/widgets/widget-featured-products.php:38
+#: inc/widgets/widget-new-products-grid.php:38
+#, fuzzy
+msgid "Number of products to show"
+msgstr "Število galerij za prikaz"
+
+#: inc/widgets/widget-best-selling-products.php:120
+#: inc/widgets/widget-featured-products.php:113
+#: inc/widgets/widget-new-products-grid.php:120
+#: woocommerce/content-product.php:63
+msgid "More"
+msgstr "Več"
+
+#: inc/widgets/widget-brands-slider.php:18
+msgid "Webmarket: Brands Slider"
+msgstr "Webmarket: Brands Slider"
+
+#: inc/widgets/widget-brands-slider.php:20
+msgid "Slider of the brands for the front page"
+msgstr "Slider of the brands for the front page"
+
+#: inc/widgets/widget-brands-slider.php:86
+msgid "Summer Sale"
+msgstr "Summer Sale"
+
+#: inc/widgets/widget-brands-slider.php:103
+#: inc/widgets/widget-featured-link.php:96
+#: inc/widgets/widget-opening-time.php:215
+#: inc/widgets/widget-text-custom-width.php:83
+msgid "Title:"
+msgstr "Naslov:"
+
+#: inc/widgets/widget-featured-link.php:18
+msgid "Webmarket: Featured Link"
+msgstr "Webmarket: Izpostavljen link"
+
+#: inc/widgets/widget-featured-link.php:20
+msgid "Featured links usually used at the top of the front page"
+msgstr "Featured links usually used at the top of the front page"
+
+#: inc/widgets/widget-featured-link.php:101
+msgid "Subtitle:"
+msgstr "Podnaslov:"
+
+#: inc/widgets/widget-featured-link.php:106
+msgid "Link:"
+msgstr "Povezava:"
+
+#: inc/widgets/widget-featured-link.php:117
+msgid "Text Color:"
+msgstr "Barva teksta:"
+
+#: inc/widgets/widget-featured-link.php:122
+msgid "Background Color:"
+msgstr "Barva ozadja:"
+
+#: inc/widgets/widget-featured-products.php:23
+msgid "Slider of the featured products for the home page"
+msgstr "Slider of the featured products for the home page"
+
+#: inc/widgets/widget-featured-products.php:25
+msgid "Webmarket: Featured Products Slider"
+msgstr "Webmarket: Featured Products Slider"
+
+#: inc/widgets/widget-new-products-grid.php:23
+msgid "Grid of the new products for the home page"
+msgstr "Grid of the new products for the home page"
+
+#: inc/widgets/widget-new-products-grid.php:25
+msgid "Webmarket: New Products Grid"
+msgstr "Webmarket: New Products Grid"
+
+#: inc/widgets/widget-new-products-grid.php:43
+#, fuzzy
+msgid "Show variations"
+msgstr "Show Details"
+
+#: inc/widgets/widget-opening-time.php:23
+msgid "Webmarket: Opening Time"
+msgstr "Webmarket: Opening Time"
+
+#: inc/widgets/widget-opening-time.php:25
+msgid "Opening Time Widget for the timetable of the opening times"
+msgstr "Opening Time Widget for the timetable of the opening times"
+
+#: inc/widgets/widget-opening-time.php:33
+msgid "Sunday"
+msgstr "Nedelja"
+
+#: inc/widgets/widget-opening-time.php:34
+msgid "Monday"
+msgstr "Ponedeljek"
+
+#: inc/widgets/widget-opening-time.php:35
+msgid "Tuesday"
+msgstr "Torek"
+
+#: inc/widgets/widget-opening-time.php:36
+msgid "Wednesday"
+msgstr "Sreda"
+
+#: inc/widgets/widget-opening-time.php:37
+msgid "Thursday"
+msgstr "Četrtek"
+
+#: inc/widgets/widget-opening-time.php:38
+msgid "Friday"
+msgstr "Petek"
+
+#: inc/widgets/widget-opening-time.php:39
+msgid "Saturday"
+msgstr "Sobota"
+
+#: inc/widgets/widget-opening-time.php:164
+msgid "Opening Time"
+msgstr "Nedelja"
+
+#: inc/widgets/widget-opening-time.php:203
+msgid "CLOSED"
+msgstr "ZAPRTO"
+
+#: inc/widgets/widget-opening-time.php:222
+msgid "opened"
+msgstr "odprto"
+
+#: inc/widgets/widget-opening-time.php:224
+msgid "to"
+msgstr "do"
+
+#: inc/widgets/widget-opening-time.php:230
+msgid "Separator between hours"
+msgstr "Separator between hours"
+
+#: inc/widgets/widget-opening-time.php:235
+msgid "Text used for closed days"
+msgstr "Text used for closed days"
+
+#: inc/widgets/widget-opening-time.php:240
+msgid "Text below the timetable for additional info (for example lunch time)"
+msgstr "Text below the timetable for additional info (for example lunch time)"
+
+#: inc/widgets/widget-shop-category-filter.php:17
+#, fuzzy
+msgctxt "backend"
+msgid "Webmarket: Shop Filters"
+msgstr "Webmarket: Shop Filters"
+
+#: inc/widgets/widget-shop-category-filter.php:19
+#, fuzzy
+msgctxt "backend"
+msgid ""
+"Use this widget only on the Shop Filter Sidebar of the Webmarket theme. With "
+"this widget you enable users to filter products by category, price and "
+"custom attributes."
+msgstr ""
+"Use this widget only on the Shop Filter Sidebar of the Webmarket theme. With "
+"this widget you enable users to filter products by category, price and "
+"custom attributes."
+
+#: inc/widgets/widget-shop-category-filter.php:212
+#, fuzzy
+msgid "No price to filter"
+msgstr "Ime filtra ni podano"
+
+#: inc/widgets/widget-shop-category-filter.php:338
+#, fuzzy
+msgctxt "backend"
+msgid "Title:"
+msgstr "Naslov:"
+
+#: inc/widgets/widget-shop-category-filter.php:345
+#, fuzzy
+msgctxt "backend"
+msgid "Title for categories filter:"
+msgstr "Določitev naslova sporočilca."
+
+#: inc/widgets/widget-shop-category-filter.php:350
+#, fuzzy
+msgctxt "backend"
+msgid "Show categories filter"
+msgstr "Show categories filter"
+
+#: inc/widgets/widget-shop-category-filter.php:356
+#, fuzzy
+msgctxt "backend"
+msgid "Title for price slider filter:"
+msgstr "Title prices:"
+
+#: inc/widgets/widget-shop-category-filter.php:361
+#, fuzzy
+msgctxt "backend"
+msgid "Show price slider filter"
+msgstr "Show categories filter"
+
+#: inc/widgets/widget-shop-category-filter.php:370
+#, fuzzy
+msgctxt "backend"
+msgid "Title for attribute:"
+msgstr "Določitev naslova sporočilca."
+
+#: inc/widgets/widget-shop-category-filter.php:374
+#, fuzzy
+msgctxt "backend"
+msgid "Show filter for attribute:"
+msgstr "Prosimo, vnesite ime za nov filter."
+
+#: inc/widgets/widget-shop-category-filter.php:384
+#, fuzzy
+msgctxt "backend"
+msgid "Filter button text:"
+msgstr "Glavna barva predloge"
+
+#: inc/widgets/widget-text-custom-width.php:17
+#, fuzzy
+msgid "Webmarket: Custom Width Text For Home Page"
+msgstr "Hairpress: Text Widget po možnosti"
+
+#: inc/widgets/widget-text-custom-width.php:19
+#, fuzzy
+msgid ""
+"Use this widget only on the home page of the Webmarket theme. With this "
+"widget you can specify custom width of the text."
+msgstr ""
+"Ta gradnik uporabljaj samo na domači strani. Lahko določiš kako širok bo."
+
+#: inc/widgets/widget-text-custom-width.php:87
+#, fuzzy
+msgid "Number of columns:"
+msgstr "Število stolpcev:"
+
+#: inc/widgets/widget-text-custom-width.php:96
+#, fuzzy
+msgid "Automatically add paragraphs"
+msgstr "Avtomatsko dodaj odstavke"
+
+#: inc/woocommerce.php:128
+#, fuzzy
+msgid "Sale!"
+msgstr "Summer Sale"
+
+#: inc/woocommerce.php:209
+#, fuzzy
+msgid "Select options"
+msgstr "Webmarket Nastavitve"
+
+#: inc/woocommerce.php:213
+#, fuzzy
+msgid "View options"
+msgstr "Webmarket Nastavitve"
+
+#: inc/woocommerce.php:217 inc/woocommerce.php:226
+msgid "Read More"
+msgstr "Beri dalje"
+
+#: inc/woocommerce.php:222
+msgid "Add to cart"
+msgstr "Dodaj v košarico"
+
+#: index.php:56
+msgid "Continue reading"
+msgstr "Nadaljuj z branjem"
+
+#: index.php:60
+msgid "Link to this post"
+msgstr "Povezava na to objavo"
+
+#: single.php:54
+msgid "Pages:"
+msgstr "Strani:"
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:155
+#, fuzzy
+msgid "Install Required Plugins"
+msgstr "Inštaliraj obvezne plugine"
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:156
+#, fuzzy
+msgid "Install Plugins"
+msgstr "Inštaliraj plugine"
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:157
+#, fuzzy
+msgid "Installing Plugin: %s"
+msgstr "Inštaliram plugin: %s"
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:158
+#, fuzzy
+msgid "Something went wrong."
+msgstr "Nekaj je šlo narobe."
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:159
+#, fuzzy
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Ta tema zahteva naslednje plugine: %1$s"
+msgstr[1] ""
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:160
+#, fuzzy
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Ta tema priporoča naslednje plugine: %1$s"
+msgstr[1] ""
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:161
+#, fuzzy
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+"Oprosti, ampak nimaš privilegijev, da bi inštliral plugine %s. Kontaktiraj "
+"administratorja."
+msgstr[1] ""
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:162
+#, fuzzy
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "The following required plugins are currently inactive: %1$s."
+msgstr[1] ""
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:163
+#, fuzzy
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "The following recommended plugins are currently inactive: %1$s."
+msgstr[1] ""
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:164
+#, fuzzy
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[1] ""
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:165
+#, fuzzy
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[1] ""
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:166
+#, fuzzy
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[1] ""
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:167
+#, fuzzy
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Begin installing plugins"
+msgstr[1] ""
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:168
+#, fuzzy
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] "Activate installed plugins"
+msgstr[1] ""
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:169
+#, fuzzy
+msgid "Return to Required Plugins Installer"
+msgstr "Vrni se na inštaler pluginov"
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:170
+#, fuzzy
+msgid "Return to the dashboard"
+msgstr "Vrni se na Dashboard"
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:171
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:1840
+#, fuzzy
+msgid "Plugin activated successfully."
+msgstr "Plugin uspešno aktiviran."
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:172
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:1538
+#, fuzzy
+msgid "The following plugin was activated successfully:"
+msgstr "Plugin uspešno aktiviran: %s"
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:173
+#, fuzzy
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Vse plugini uspešnno inštalirani in aktivirani: %1$s"
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:174
+#, fuzzy
+msgid "Dismiss this notice"
+msgstr "Odstrani sporočilo"
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:1085
+#, fuzzy
+msgid "External Link"
+msgstr "Zunanji link"
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:1090
+#, fuzzy
+msgid "Private Repository"
+msgstr "Privatni repozitorij"
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:1093
+#, fuzzy
+msgid "Pre-Packaged"
+msgstr "Zapakiran"
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:1097
+#, fuzzy
+msgid "WordPress Repository"
+msgstr "WordPress repozitorij"
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:1100
+#, fuzzy
+msgid "Required"
+msgstr "Obvezen"
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:1100
+#, fuzzy
+msgid "Recommended"
+msgstr "Priporočljivo"
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:1103
+#, fuzzy
+msgid "Not Installed"
+msgstr "Ni inštaliran"
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:1105
+#, fuzzy
+msgid "Installed But Not Activated"
+msgstr "Inštaliran ampak ni aktiviran"
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:1275
+#, fuzzy
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr "Ni pluginov za inštalirat ali aktivirat."
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:1291
+#, fuzzy
+msgid "Plugin"
+msgstr "Plugin"
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:1292
+#, fuzzy
+msgid "Source"
+msgstr "Vir"
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:1293
+#, fuzzy
+msgid "Type"
+msgstr "Tip"
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:1294
+#, fuzzy
+msgid "Status"
+msgstr "Status"
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:1312
+#, fuzzy
+msgid "Install"
+msgstr "Install"
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:1313
+#, fuzzy
+msgid "Activate"
+msgstr "Aktiviran"
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:1823
+#, fuzzy
+msgid "Install package not available."
+msgstr "Install package not available."
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:1824
+#, fuzzy
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:1825
+#, fuzzy
+msgid "Unpacking the package&#8230;"
+msgstr "Unpacking the package&#8230;"
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:1826
+#, fuzzy
+msgid "Installing the plugin&#8230;"
+msgstr "Installing the plugin&#8230;"
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:1827
+#, fuzzy
+msgid "Plugin install failed."
+msgstr "Plugin install failed."
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:1828
+#, fuzzy
+msgid "Plugin installed successfully."
+msgstr "Plugin installed successfully."
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:1839
+#, fuzzy
+msgid "Plugin activation failed."
+msgstr "Plugin activation failed."
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:1949
+#, fuzzy
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:1950
+#, fuzzy
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s installed and activated successfully."
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:1950
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:1959
+#, fuzzy
+msgid "Show Details"
+msgstr "Show Details"
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:1950
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:1959
+#, fuzzy
+msgid "Hide Details"
+msgstr "Hide Details"
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:1951
+#, fuzzy
+msgid "All installations and activations have been completed."
+msgstr "All installations and activations have been completed."
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:1952
+#, fuzzy
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:1956
+#, fuzzy
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:1957
+#, fuzzy
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "An error occurred while installing %1$s: <strong>%2$s</strong>."
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:1958
+#, fuzzy
+msgid "The installation of %1$s failed."
+msgstr "The installation of %1$s failed."
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:1959
+#, fuzzy
+msgid "%1$s installed successfully."
+msgstr "%1$s installed successfully."
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:1960
+#, fuzzy
+msgid "All installations have been completed."
+msgstr "All installations have been completed."
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:1961
+#, fuzzy
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Installing Plugin %1$s (%2$d/%3$d)"
+
+#: tgm-plugin-activation/class-tgm-plugin-activation.php:2052
+#, fuzzy
+msgid "Return to the Dashboard"
+msgstr "Vrni se na Dashboard"
+
+#: titlearea.php:19
+msgid "Category Archive"
+msgstr "Arhiv kategorije"
+
+#: titlearea.php:22
+msgid "Tag Archive"
+msgstr "Arhiv značke"
+
+#: titlearea.php:25
+msgid "Search Results"
+msgstr "Rezultati iskanja"
+
+#: woocommerce/single-product/price.php:27
+#, fuzzy
+msgid "In stock"
+msgstr "Skupina delnic"
+
+#: woocommerce/single-product/price.php:27
+#, fuzzy
+msgid "Out of Stock"
+msgstr "Skupina delnic"
+
+#: woocommerce/single-product/review.php:26
+#, fuzzy
+msgid "Rated %d out of 5"
+msgstr "Odjava"
+
+#: woocommerce/single-product/review.php:47
+#, fuzzy
+msgid "Your comment is awaiting approval"
+msgstr "Tvoj komentar čaka odobritev."
+
+#: woocommerce/single-product/review.php:56
+#, fuzzy
+msgid "verified owner"
+msgstr "Dovoljenja lastnika"
+
+#: woocommerce/single-product-reviews.php:21
+#, fuzzy
+msgid "%s review for %s"
+msgid_plural "%s reviews for %s"
+msgstr[0] "Prevedeno za:"
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: woocommerce/single-product-reviews.php:23
+msgid "Reviews"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:44
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:57
+#, fuzzy
+msgid "Add a review"
+msgstr "Dodaj novega"
+
+#: woocommerce/single-product-reviews.php:57
+#, fuzzy
+msgid "Be the first to review"
+msgstr "Ikona ukaza, ki bo zagnan"
+
+#: woocommerce/single-product-reviews.php:58
+#, fuzzy
+msgid "Leave a Reply to %s"
+msgstr "Dodaj v košarico"
+
+#: woocommerce/single-product-reviews.php:67
+#, fuzzy
+msgid "Submit"
+msgstr "POŠLJI KOMENTAR"
+
+#: woocommerce/single-product-reviews.php:73
+#, fuzzy
+msgid "Your Rating"
+msgstr "Tvoj komentar"
+
+#: woocommerce/single-product-reviews.php:74
+#, fuzzy
+msgid "Rate&hellip;"
+msgstr "Hitrost polnjenja:"
+
+#: woocommerce/single-product-reviews.php:75
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:76
+#, fuzzy
+msgid "Good"
+msgstr "Dobro"
+
+#: woocommerce/single-product-reviews.php:77
+#, fuzzy
+msgid "Average"
+msgstr "Po_vprečje"
+
+#: woocommerce/single-product-reviews.php:78
+#, fuzzy
+msgid "Not that bad"
+msgstr "Slabo določilo različice '%s'"
+
+#: woocommerce/single-product-reviews.php:79
+#, fuzzy
+msgid "Very Poor"
+msgstr "zelo visoka"
+
+#: woocommerce/single-product-reviews.php:83
+#, fuzzy
+msgid "Your Review"
+msgstr "Tvoj komentar"
+
+#: woocommerce/single-product-reviews.php:92
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Webmarket WP Theme"
+msgstr "Webmarket WP Theme"
+
+#. Theme URI of the plugin/theme
+msgid "http://www.proteusthemes.com/themes/webmarket-wp/"
+msgstr "http://www.proteusthemes.com/themes/webmarket-wp/"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid ""
+"Webmarket is a responsive and clean WordPress WooCommerce theme for online "
+"shops. We offer support on: http://support.proteusthemes.com"
+msgstr ""
+"Webmarket is a responsive and clean WordPress WooCommerce theme for online "
+"shops. We offer support on Ticksy: http://proteusthemes.ticksy.com"
+
+#. Author of the plugin/theme
+msgid "ProteusThemes"
+msgstr "ProteusThemes"
+
+#. Author URI of the plugin/theme
+msgid "http://www.proteusthemes.com/"
+msgstr "http://www.proteusthemes.com/"
+
+#. Template Name of the plugin/theme
+msgid "Front Page with Content"
+msgstr "Front Page with Content"
+
+#. Template Name of the plugin/theme
+msgid "Front Page with Slider Revolution"
+msgstr "Front Page with Slider Revolution"
+
+#. Template Name of the plugin/theme
+msgid "Default Template With Exposed Title"
+msgstr "Default Template With Exposed Title"
+
+#~ msgid "Team"
+#~ msgstr "Ekipa"
+
+#~ msgid "Team Member"
+#~ msgstr "Član ekipe"
+
+#~ msgid "Add New Team Member"
+#~ msgstr "Dodaj novega člana"
+
+#~ msgid "Edit Team Member"
+#~ msgstr "Uredi člana"
+
+#~ msgid "New Team Member"
+#~ msgstr "Nov član"
+
+#~ msgid "All Team Members"
+#~ msgstr "Vsi člani"
+
+#~ msgid "View Team Member"
+#~ msgstr "Oglej si člana"
+
+#~ msgid "Search Team Members"
+#~ msgstr "Išči člane"
+
+#~ msgid "No team members found"
+#~ msgstr "Ni članov"
+
+#~ msgid "No team members found in Trash"
+#~ msgstr "Ni članov v košu"
+
+#~ msgid "Layout"
+#~ msgstr "Layout"
+
+#~ msgid "Layout for specific pages"
+#~ msgstr "Layout for specific pages"
+
+#~ msgid "Title categories:"
+#~ msgstr "Title categories:"
+
+#~ msgid "Welcome %s!"
+#~ msgstr "Dobrodošel %s!"

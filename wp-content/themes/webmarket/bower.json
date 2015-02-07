@@ -1,0 +1,19 @@
+{
+  "name": "webmarket",
+  "version": "0.0.0",
+  "authors": [
+    "Primoz Cigler <primoz.cigler@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "wp-bootstrap-navwalker": "https://github.com/twittem/wp-bootstrap-navwalker.git#For-Bootstrap-2.3.2"
+  }
+}

@@ -1,0 +1,828 @@
+# Copyright (C) 2015 ProteusThemes
+# This file is distributed under the GPL 2.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: Webmarket WP Theme 2.3.3\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/webmarket\n"
+"POT-Creation-Date: 2015-01-14 12:46:36+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: 404.php:9 inc/helpers.php:86
+msgid "Error 404"
+msgstr ""
+
+#: 404.php:15
+msgid ""
+"Looks like something went wrong! The page you were looking for is not here."
+msgstr ""
+
+#: 404.php:18
+msgctxt "%s is for the link to home page, wrap the word Home in two %s"
+msgid "Go %sHome%s or try to search:"
+msgstr ""
+
+#: archive.php:49 search.php:49
+msgid "Continue Reading"
+msgstr ""
+
+#: comments.php:42
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:43
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:52
+msgid "Leave a Comment"
+msgstr ""
+
+#: comments.php:68
+msgid "SUBMIT A COMMENT"
+msgstr ""
+
+#: comments.php:74 woocommerce/single-product-reviews.php:62
+msgid "Name"
+msgstr ""
+
+#: comments.php:75 woocommerce/single-product-reviews.php:64
+msgid "Email"
+msgstr ""
+
+#: comments.php:76
+msgid "Website"
+msgstr ""
+
+#: comments.php:86
+msgid "Comments are disabled for this post"
+msgstr ""
+
+#: comments.php:94
+msgid "Comments not shown for password protected posts"
+msgstr ""
+
+#: content-breadcrumbs.php:26 inc/helpers.php:81
+msgid "Home Page"
+msgstr ""
+
+#: content-title.php:23
+msgid "No comments"
+msgstr ""
+
+#: content-title.php:24
+msgid "One comment"
+msgstr ""
+
+#: content-title.php:25
+msgctxt "translators: % represents the number, you must include it"
+msgid "% comments"
+msgstr ""
+
+#: content-title.php:26
+msgid "Posted in"
+msgstr ""
+
+#: content-title.php:26
+msgid "Tagged"
+msgstr ""
+
+#: header.php:60
+msgid "My Account"
+msgstr ""
+
+#: header.php:64
+msgid "Login / Register"
+msgstr ""
+
+#: header.php:90
+msgctxt ""
+"Three %s represent the HTML markup, must be included. First and last %s are "
+"for bold tags, the middle is for the arrow."
+msgid "Define your top bar navigation in %sApperance %s Menus%s"
+msgstr ""
+
+#: header.php:99
+msgid "Cart (%d)"
+msgstr ""
+
+#: inc/custom-comments.php:28
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/custom-comments.php:34
+msgid "Edit"
+msgstr ""
+
+#: inc/custom-comments.php:38
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/helpers.php:62
+msgid "Page %s"
+msgstr ""
+
+#: inc/helpers.php:82
+msgid "Archive by Category &quot;%s&quot;"
+msgstr ""
+
+#: inc/helpers.php:83
+msgid "Search Results for &quot;%s&quot; Query"
+msgstr ""
+
+#: inc/helpers.php:84
+msgid "Posts Tagged &quot;%s&quot;"
+msgstr ""
+
+#: inc/helpers.php:85
+msgid "Articles Posted by %s"
+msgstr ""
+
+#: inc/helpers.php:157
+msgid "No products found"
+msgstr ""
+
+#: inc/helpers.php:215
+msgid "Page"
+msgstr ""
+
+#: inc/ot-meta-boxes.php:19
+msgid "Webmarket Options"
+msgstr ""
+
+#: inc/ot-meta-boxes.php:20
+msgid "Options specific to Webmarket theme"
+msgstr ""
+
+#: inc/ot-meta-boxes.php:33 inc/ot-meta-boxes.php:73
+msgid "Position of the sidebar"
+msgstr ""
+
+#: inc/ot-meta-boxes.php:34
+msgid ""
+"Position the sidebar for this particular page to the left, right or do not "
+"display it at all."
+msgstr ""
+
+#: inc/ot-meta-boxes.php:41 inc/ot-meta-boxes.php:85
+#: inc/theme-customizer.php:209
+msgid "Right"
+msgstr ""
+
+#: inc/ot-meta-boxes.php:45 inc/ot-meta-boxes.php:89
+#: inc/theme-customizer.php:208
+msgid "Left"
+msgstr ""
+
+#: inc/ot-meta-boxes.php:49 inc/ot-meta-boxes.php:93
+msgid "No sidebar"
+msgstr ""
+
+#: inc/ot-meta-boxes.php:55
+msgid "Slider Revolution alias"
+msgstr ""
+
+#: inc/ot-meta-boxes.php:56
+msgid ""
+"Only applies to the templates \"Front Page with Revolution Slider\" and "
+"\"Front page with Content\". Paste the alias of the slider you created in "
+"the Revolution Slider plugin to this box (only <a href=\"https://www.diigo."
+"com/item/image/3rli1/s9bj?size=o\" target=\"_blank\">alias</a>, not the "
+"whole shortcode)."
+msgstr ""
+
+#: inc/ot-meta-boxes.php:74
+msgid ""
+"Position the sidebar for this particular post to the left, right or do not "
+"display it at all."
+msgstr ""
+
+#: inc/ot-meta-boxes.php:81
+msgid "Default (the same as blog layout)"
+msgstr ""
+
+#: inc/register-sidebars.php:12
+msgid "Blog Sidebar"
+msgstr ""
+
+#: inc/register-sidebars.php:14
+msgid "Sidebar on the blog layout"
+msgstr ""
+
+#: inc/register-sidebars.php:27
+msgid "Regular Page Sidebar"
+msgstr ""
+
+#: inc/register-sidebars.php:29
+msgid "Sidebar on the regular page"
+msgstr ""
+
+#: inc/register-sidebars.php:42
+msgid "Shop Filter Sidebar"
+msgstr ""
+
+#: inc/register-sidebars.php:44
+msgid "Sidebar on the shop page"
+msgstr ""
+
+#: inc/register-sidebars.php:57
+msgid "Single Product Sidebar"
+msgstr ""
+
+#: inc/register-sidebars.php:59
+msgid "Sidebar on the single product page"
+msgstr ""
+
+#: inc/register-sidebars.php:72
+msgid "Home Page - Row One"
+msgstr ""
+
+#: inc/register-sidebars.php:74
+msgid "Sidebar row 1 on the front page"
+msgstr ""
+
+#: inc/register-sidebars.php:86
+msgid "Home Page - Row Two"
+msgstr ""
+
+#: inc/register-sidebars.php:88
+msgid "Sidebar row 2 on the front page"
+msgstr ""
+
+#: inc/register-sidebars.php:100
+msgid "Home Page - Row Three"
+msgstr ""
+
+#: inc/register-sidebars.php:102
+msgid "Sidebar row 3 on the front page"
+msgstr ""
+
+#: inc/register-sidebars.php:113
+msgid "Home Page - Row Four"
+msgstr ""
+
+#: inc/register-sidebars.php:115
+msgid "Sidebar under the latest news on the homepage"
+msgstr ""
+
+#: inc/register-sidebars.php:126
+msgid "Top Footer"
+msgstr ""
+
+#: inc/register-sidebars.php:128
+msgid "First footer area - accepts 3 widgets"
+msgstr ""
+
+#: inc/register-sidebars.php:139
+msgid "Bottom Footer"
+msgstr ""
+
+#: inc/register-sidebars.php:141
+msgid "Second footer area - accepts 4 widgets"
+msgstr ""
+
+#: inc/template-tags.php:22
+msgid "CART"
+msgstr ""
+
+#: inc/template-tags.php:32
+msgid "No products in the cart."
+msgstr ""
+
+#: inc/template-tags.php:42
+msgid "And %d more"
+msgstr ""
+
+#: inc/template-tags.php:77
+msgid "Available on backorder"
+msgstr ""
+
+#: inc/template-tags.php:82
+msgid "Qty:"
+msgstr ""
+
+#: inc/template-tags.php:84
+msgid "Remove this item"
+msgstr ""
+
+#: inc/template-tags.php:105
+msgid "Subtotal:"
+msgstr ""
+
+#: inc/template-tags.php:111
+msgid "CHECKOUT"
+msgstr ""
+
+#: inc/theme-customizer.php:62
+msgid "Appearance"
+msgstr ""
+
+#: inc/theme-customizer.php:63
+msgid "Appearance for the Webmarket theme"
+msgstr ""
+
+#: inc/theme-customizer.php:68
+msgid "Shop"
+msgstr ""
+
+#: inc/theme-customizer.php:69
+msgid "Shop settings"
+msgstr ""
+
+#: inc/theme-customizer.php:74
+msgid "Social Icons"
+msgstr ""
+
+#: inc/theme-customizer.php:75
+msgid ""
+"Insert your link (the whole URL with <code>http(s)://</code>) for specific "
+"icon to appear"
+msgstr ""
+
+#: inc/theme-customizer.php:90
+msgid "Show tagline in the header?"
+msgstr ""
+
+#: inc/theme-customizer.php:95 inc/theme-customizer.php:180
+#: inc/theme-customizer.php:222 inc/theme-customizer.php:270
+msgid "Yes"
+msgstr ""
+
+#: inc/theme-customizer.php:96 inc/theme-customizer.php:181
+#: inc/theme-customizer.php:207 inc/theme-customizer.php:223
+#: inc/theme-customizer.php:271
+msgid "No"
+msgstr ""
+
+#: inc/theme-customizer.php:104
+msgid "Blog Title"
+msgstr ""
+
+#: inc/theme-customizer.php:113
+msgid "Blog Tagline"
+msgstr ""
+
+#: inc/theme-customizer.php:123
+msgid "Shop Sidebar Title"
+msgstr ""
+
+#: inc/theme-customizer.php:134
+msgid "Logo image (recommended dimensions: 200 x 50)"
+msgstr ""
+
+#: inc/theme-customizer.php:143
+msgid "Favicon image (16 x 16 px), format .ico"
+msgstr ""
+
+#: inc/theme-customizer.php:152
+msgid "Boxed or wide version?"
+msgstr ""
+
+#: inc/theme-customizer.php:157
+msgid "Wide"
+msgstr ""
+
+#: inc/theme-customizer.php:158
+msgid "Boxed"
+msgstr ""
+
+#: inc/theme-customizer.php:166
+msgid "Background pattern (only for boxed version)"
+msgstr ""
+
+#: inc/theme-customizer.php:175
+msgid "Display latest news on the front page"
+msgstr ""
+
+#: inc/theme-customizer.php:192
+msgid "Number of products per page"
+msgstr ""
+
+#: inc/theme-customizer.php:202
+msgid "Show sidebar on single product page"
+msgstr ""
+
+#: inc/theme-customizer.php:217
+msgid "Show stock status for the products?"
+msgstr ""
+
+#: inc/theme-customizer.php:231
+msgid "Info text in shopping cart dropdown"
+msgstr ""
+
+#: inc/theme-customizer.php:243
+msgid "Primary Theme Color"
+msgstr ""
+
+#: inc/theme-customizer.php:252
+msgid "Secondary Theme Color"
+msgstr ""
+
+#: inc/theme-customizer.php:264
+msgid "Open the icons in the new window?"
+msgstr ""
+
+#: inc/widgets/widget-best-selling-products.php:23
+msgid "Grid of the best selling products for the home page"
+msgstr ""
+
+#: inc/widgets/widget-best-selling-products.php:25
+msgid "Webmarket: Best Selling Products"
+msgstr ""
+
+#: inc/widgets/widget-best-selling-products.php:29
+#: inc/widgets/widget-featured-products.php:29
+#: inc/widgets/widget-new-products-grid.php:29
+msgid "Products"
+msgstr ""
+
+#: inc/widgets/widget-best-selling-products.php:30
+#: inc/widgets/widget-featured-products.php:30
+#: inc/widgets/widget-new-products-grid.php:30
+msgid "Title"
+msgstr ""
+
+#: inc/widgets/widget-best-selling-products.php:38
+#: inc/widgets/widget-featured-products.php:38
+#: inc/widgets/widget-new-products-grid.php:38
+msgid "Number of products to show"
+msgstr ""
+
+#: inc/widgets/widget-best-selling-products.php:120
+#: inc/widgets/widget-featured-products.php:113
+#: inc/widgets/widget-new-products-grid.php:120
+#: woocommerce/content-product.php:63
+msgid "More"
+msgstr ""
+
+#: inc/widgets/widget-brands-slider.php:18
+msgid "Webmarket: Brands Slider"
+msgstr ""
+
+#: inc/widgets/widget-brands-slider.php:20
+msgid "Slider of the brands for the front page"
+msgstr ""
+
+#: inc/widgets/widget-brands-slider.php:86
+msgid "Summer Sale"
+msgstr ""
+
+#: inc/widgets/widget-brands-slider.php:103
+#: inc/widgets/widget-featured-link.php:96
+#: inc/widgets/widget-opening-time.php:215
+#: inc/widgets/widget-text-custom-width.php:83
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/widget-featured-link.php:18
+msgid "Webmarket: Featured Link"
+msgstr ""
+
+#: inc/widgets/widget-featured-link.php:20
+msgid "Featured links usually used at the top of the front page"
+msgstr ""
+
+#: inc/widgets/widget-featured-link.php:101
+msgid "Subtitle:"
+msgstr ""
+
+#: inc/widgets/widget-featured-link.php:106
+msgid "Link:"
+msgstr ""
+
+#: inc/widgets/widget-featured-link.php:117
+msgid "Text Color:"
+msgstr ""
+
+#: inc/widgets/widget-featured-link.php:122
+msgid "Background Color:"
+msgstr ""
+
+#: inc/widgets/widget-featured-products.php:23
+msgid "Slider of the featured products for the home page"
+msgstr ""
+
+#: inc/widgets/widget-featured-products.php:25
+msgid "Webmarket: Featured Products Slider"
+msgstr ""
+
+#: inc/widgets/widget-new-products-grid.php:23
+msgid "Grid of the new products for the home page"
+msgstr ""
+
+#: inc/widgets/widget-new-products-grid.php:25
+msgid "Webmarket: New Products Grid"
+msgstr ""
+
+#: inc/widgets/widget-new-products-grid.php:43
+msgid "Show variations"
+msgstr ""
+
+#: inc/widgets/widget-opening-time.php:23
+msgid "Webmarket: Opening Time"
+msgstr ""
+
+#: inc/widgets/widget-opening-time.php:25
+msgid "Opening Time Widget for the timetable of the opening times"
+msgstr ""
+
+#: inc/widgets/widget-opening-time.php:33
+msgid "Sunday"
+msgstr ""
+
+#: inc/widgets/widget-opening-time.php:34
+msgid "Monday"
+msgstr ""
+
+#: inc/widgets/widget-opening-time.php:35
+msgid "Tuesday"
+msgstr ""
+
+#: inc/widgets/widget-opening-time.php:36
+msgid "Wednesday"
+msgstr ""
+
+#: inc/widgets/widget-opening-time.php:37
+msgid "Thursday"
+msgstr ""
+
+#: inc/widgets/widget-opening-time.php:38
+msgid "Friday"
+msgstr ""
+
+#: inc/widgets/widget-opening-time.php:39
+msgid "Saturday"
+msgstr ""
+
+#: inc/widgets/widget-opening-time.php:164
+msgid "Opening Time"
+msgstr ""
+
+#: inc/widgets/widget-opening-time.php:203
+msgid "CLOSED"
+msgstr ""
+
+#: inc/widgets/widget-opening-time.php:222
+msgid "opened"
+msgstr ""
+
+#: inc/widgets/widget-opening-time.php:224
+msgid "to"
+msgstr ""
+
+#: inc/widgets/widget-opening-time.php:230
+msgid "Separator between hours"
+msgstr ""
+
+#: inc/widgets/widget-opening-time.php:235
+msgid "Text used for closed days"
+msgstr ""
+
+#: inc/widgets/widget-opening-time.php:240
+msgid "Text below the timetable for additional info (for example lunch time)"
+msgstr ""
+
+#: inc/widgets/widget-shop-category-filter.php:17
+msgctxt "backend"
+msgid "Webmarket: Shop Filters"
+msgstr ""
+
+#: inc/widgets/widget-shop-category-filter.php:19
+msgctxt "backend"
+msgid ""
+"Use this widget only on the Shop Filter Sidebar of the Webmarket theme. With "
+"this widget you enable users to filter products by category, price and "
+"custom attributes."
+msgstr ""
+
+#: inc/widgets/widget-shop-category-filter.php:215
+msgid "No price to filter"
+msgstr ""
+
+#: inc/widgets/widget-shop-category-filter.php:341
+msgctxt "backend"
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/widget-shop-category-filter.php:348
+msgctxt "backend"
+msgid "Title for categories filter:"
+msgstr ""
+
+#: inc/widgets/widget-shop-category-filter.php:353
+msgctxt "backend"
+msgid "Show categories filter"
+msgstr ""
+
+#: inc/widgets/widget-shop-category-filter.php:359
+msgctxt "backend"
+msgid "Title for price slider filter:"
+msgstr ""
+
+#: inc/widgets/widget-shop-category-filter.php:364
+msgctxt "backend"
+msgid "Show price slider filter"
+msgstr ""
+
+#: inc/widgets/widget-shop-category-filter.php:373
+msgctxt "backend"
+msgid "Title for attribute:"
+msgstr ""
+
+#: inc/widgets/widget-shop-category-filter.php:377
+msgctxt "backend"
+msgid "Show filter for attribute:"
+msgstr ""
+
+#: inc/widgets/widget-shop-category-filter.php:387
+msgctxt "backend"
+msgid "Filter button text:"
+msgstr ""
+
+#: inc/widgets/widget-text-custom-width.php:17
+msgid "Webmarket: Custom Width Text For Home Page"
+msgstr ""
+
+#: inc/widgets/widget-text-custom-width.php:19
+msgid ""
+"Use this widget only on the home page of the Webmarket theme. With this "
+"widget you can specify custom width of the text."
+msgstr ""
+
+#: inc/widgets/widget-text-custom-width.php:87
+msgid "Number of columns:"
+msgstr ""
+
+#: inc/widgets/widget-text-custom-width.php:96
+msgid "Automatically add paragraphs"
+msgstr ""
+
+#: inc/woocommerce.php:128
+msgid "Sale!"
+msgstr ""
+
+#: inc/woocommerce.php:209
+msgid "Select options"
+msgstr ""
+
+#: inc/woocommerce.php:213
+msgid "View options"
+msgstr ""
+
+#: inc/woocommerce.php:217 inc/woocommerce.php:226
+msgid "Read More"
+msgstr ""
+
+#: inc/woocommerce.php:222
+msgid "Add to cart"
+msgstr ""
+
+#: index.php:56
+msgid "Continue reading"
+msgstr ""
+
+#: index.php:60
+msgid "Link to this post"
+msgstr ""
+
+#: single.php:54
+msgid "Pages:"
+msgstr ""
+
+#: titlearea.php:19
+msgid "Category Archive"
+msgstr ""
+
+#: titlearea.php:22
+msgid "Tag Archive"
+msgstr ""
+
+#: titlearea.php:25
+msgid "Search Results"
+msgstr ""
+
+#: woocommerce/single-product/price.php:27
+msgid "In stock"
+msgstr ""
+
+#: woocommerce/single-product/price.php:27
+msgid "Out of Stock"
+msgstr ""
+
+#: woocommerce/single-product/review.php:26
+msgid "Rated %d out of 5"
+msgstr ""
+
+#: woocommerce/single-product/review.php:47
+msgid "Your comment is awaiting approval"
+msgstr ""
+
+#: woocommerce/single-product/review.php:56
+msgid "verified owner"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:21
+msgid "%s review for %s"
+msgid_plural "%s reviews for %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product-reviews.php:23
+msgid "Reviews"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:44
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:57
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:57
+msgid "Be the first to review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:58
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:67
+msgid "Submit"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:73
+msgid "Your Rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:74
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:75
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:76
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:77
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:78
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:79
+msgid "Very Poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:83
+msgid "Your Review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:92
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Webmarket WP Theme"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://www.proteusthemes.com/themes/webmarket-wp/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Webmarket is a responsive and clean WordPress WooCommerce theme for online "
+"shops. We offer support on: http://support.proteusthemes.com"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ProteusThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.proteusthemes.com/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Front Page with Content"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Front Page with Slider Revolution"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Default Template With Exposed Title"
+msgstr ""

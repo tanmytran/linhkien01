@@ -1,0 +1,365 @@
+//  ==========
+//  = Sidebars for the Woo Market =
+//  ==========
+
+
+.sidebar-item {
+  margin-bottom: 30px;
+
+  .underlined {
+    margin-bottom: 15px;
+  }
+  &.widget_product_categories {
+    font-weight: bold;
+  }
+  &.widget_nav_menu {
+    .nav-pills {
+      margin-bottom: 0;
+      > li {
+        margin: 0;
+
+        > a {
+          font-weight: bold;
+          color: $textColor;
+
+          &:hover {
+            color: $theme;
+          }
+        }
+      }
+    }
+  }
+  .dropdown-menu {
+    margin-left: 0;
+
+    > li {
+      > a {
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  &.widget_recent_comments {
+    ul {
+      list-style: none;
+      margin: 0;
+    }
+    ul > li {
+      margin-bottom: 10px;
+
+      a {
+        font-weight: bold;
+      }
+    }
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+
+    li {
+      margin: 2px 0;
+    }
+    ul {
+      margin-left: 5%;
+    }
+  }
+
+  // search
+  &.widget_search {
+    .form {
+      @extend %search-form;
+
+      button[type="submit"] {
+        top: 4px;
+        right: 0;
+      }
+      input[type="text"] {
+        padding-right: 28px;
+      }
+    }
+  }
+
+  // flickr widget
+  .flickr-badge {
+    margin-left: -3.33%;
+
+    a {
+      display: block;
+      width: 30%;
+      margin: 0 0 3.33% 3.33%;
+      float: left;
+
+      img {
+        width: 100%;
+        @include border-radius(3px);
+      }
+    }
+  }
+  .control-group {
+    margin-bottom: 0;
+
+    &.sub {
+      margin-left: 18px;
+    }
+    &.sub-level-three {
+      padding-left: 18px;
+    }
+    .checkbox {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.widget {
+  margin-bottom: 30px;
+}
+.widget__compare {
+  .alert {
+    margin-bottom: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+
+// filters
+.sidebar-filters {
+  .accordion-toggle {
+    text-transform: uppercase;
+    color: $black;
+    padding: 10px 0;
+
+    &.collapsed {
+      .caret {
+        @include rotate(-90deg);
+      }
+    }
+  }
+
+  .caret {
+    vertical-align: middle;
+    margin-left: 5px;
+    @include transition(all 0.2s linear);
+  }
+  .accordion-inner {
+    border-top: none;
+    padding: 0 0 10px 0;
+  }
+  .accordion-group {
+    position: relative;
+    margin: 0;
+
+    &:after {
+      @extend %small-line;
+    }
+
+    &:last-child:after {
+      display: none;
+    }
+  }
+  .selectable {
+    color: $navbarLinkColor;
+    display: block;
+    margin: 3px 0;
+
+    &:hover,
+    &:focus {
+      text-decoration: none;
+      color: $theme;
+    }
+
+    &.selected {
+      color: $black;
+      font-weight: bold;
+
+      .box {
+        @include box-shadow(none);
+        background-color: $theme;
+        border-color: $theme;
+      }
+    }
+    &.sub-category {
+      padding-left: 20px;
+    }
+  }
+  .max-val,
+  .min-val {
+    text-align: center;
+    font-weight: bold;
+    padding: 3px;
+    width: 33%;
+    cursor: default;
+  }
+  .remove-filter {
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px 0;
+    color: $red;
+  }
+}
+
+// vertical menus for sidebar
+.nav-pills.nav-stacked {
+  margin-top: 10px;
+  border-top: 1px solid $borders;
+
+  > li {
+    > a {
+      @include border-radius(0);
+      background: $grayLighter;
+      border: 1px solid $borders;
+      border-top: none;
+      margin: 0;
+      color: $titles;
+      @include transition(background .2s ease);
+      padding: 12px 16px;
+      font-size: 12px;
+      color: darken($navbarLinkColor, 5%);
+
+      &:hover,
+      &:active {
+        font-weight: bold;
+        background: lighten($grayLighter, 3%);
+      }
+    }
+    &.active > a {
+      background-color: $bodyBackground;
+      font-weight: bold;
+      border-right: none;
+      border-left: 3px solid $theme;
+      color: $titles;
+      padding-left: 14px;
+
+      &:hover,
+      &:active {
+        color: $titles;
+      }
+    }
+  }
+  .dropdown-menu {
+    display: block;
+    position: static;
+    float: none;
+    border-radius: 0;
+    box-shadow: none;
+    border-top: none;
+    margin-top: 0;
+
+    .dropdown-menu {
+      border: none;
+      margin-left: 10px;
+    }
+  }
+  .caret {
+    display: none;
+  }
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-submenu:hover > a,
+.dropdown-submenu:focus > a {
+  background: none;
+  color: $titles;
+}
+
+// menu affix
+.affix {
+  top: 70px;
+}
+.affix-bottom {
+  position: absolute;
+  top: auto;
+}
+
+
+// opening times widget
+.opening-time {
+  .time-table {
+    @extend %opensans;
+  }
+  .week-day {
+    padding: 10px;
+    @include border-radius(3px);
+    margin: 0;
+    background-color: $grayLighter;
+
+    &.light-bg {
+      background: none;
+    }
+
+    dt {
+      width: 50%;
+      float: left;
+      font-weight: normal;
+    }
+    dd {
+      text-align: right;
+    }
+
+    &.closed {
+      dt,
+      dd {
+        color: $grayLight;
+      }
+    }
+    &.today {
+      font-weight: bold;
+
+      dt {
+        color: $theme;
+        font-weight: bold;
+      }
+    }
+  }
+  .additional-info {
+    text-align: center;
+    font-style: italic;
+    padding: 0.33em 0;
+  }
+}
+
+
+// wp specific
+.widget_calendar {
+  table {
+    width: 100%;
+    text-align: center;
+  }
+
+  caption {
+    background-color: $theme;
+    color: #fff;
+    font-weight: bold;
+    @include border-radius(3px 3px 0 0);
+  }
+  tbody td {
+    text-align: center;
+  }
+}
+
+// wp
+.widget_rss {
+  .bolded-line {
+    display: none;
+  }
+  .lined {
+    clear: both;
+    overflow: auto;
+
+    .rsswidget {
+      float: left;
+      margin-right: 5px;
+      margin-bottom: 10px;
+    }
+  }
+}
+.widget_calendar {
+  caption {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+  }
+}

@@ -1,0 +1,174 @@
+//  ==========
+//  = Images/thumbnails/galleries for the Woo Market =
+//  ==========
+
+// placeholders
+%overlay {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.picture {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+
+  img {
+    width: 100%;
+
+    &.rounded {
+      @include border-radius(3px);
+    }
+  }
+}
+
+
+
+
+// featured products on the front page
+.product-img {
+  margin-bottom: 15px;
+
+  &.featured {
+    background: image-url('shelf.png') no-repeat center bottom;
+    @include background-size(100% auto);
+    padding-bottom: 14%;
+
+    .picture {
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+
+      img {
+        margin-bottom: 0;
+      }
+      .img-overlay {
+        display: none;
+      }
+    }
+  }
+}
+
+.product {
+  .picture {
+    img {
+      margin-bottom: 10px;
+    }
+    .btn {
+      margin-bottom: 5px;
+    }
+  }
+}
+
+
+html.no-touch {
+  .picture {
+    .img-overlay {
+      background-color: rgba(255,255,255,0.33);
+      opacity: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      @include transition(opacity 0.2s ease-in-out);
+
+      .btn {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+      }
+    }
+  }
+  .product-img.featured .picture .img-overlay {
+    display: block;
+  }
+  .product {
+    &:hover {
+      .img-overlay {
+        @include opacity(100);
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+      }
+    }
+    .picture {
+      img {
+        margin-bottom: 0;
+      }
+      .btn {
+        margin-bottom: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: bold;
+        text-transform: uppercase;
+        width: 116px;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: -58px;
+        @include transition(all 0.2s ease);
+
+        &.more {
+          margin-top: -40px;
+          @include transform(translateX(-195px));
+        }
+        &.buy {
+          margin-top: 10px;
+          @include transform(translateX(195px));
+        }
+      }
+    }
+    &:hover {
+      .picture .btn {
+        @include transform(translateX(0));
+      }
+    }
+  }
+}
+
+
+
+
+
+
+// wp images and classes
+.aligncenter {
+  display: block;
+  margin: $baseLineHeight auto;
+  clear: both;
+}
+.alignleft {
+  float: left;
+  margin-right: $baseLineHeight;
+  margin-bottom: 5px;
+}
+.alignright {
+  float: right;
+  margin-left: $baseLineHeight;
+  margin-bottom: 5px;
+}
+.alignnone {
+  display: inline;
+}
+.wp-caption {
+  img {
+    margin-bottom: 10px;
+  }
+}
+.wp-caption-text,
+.gallery-caption {
+  text-align: center;
+  font-style: italic;
+}
+.gallery-caption {
+  font-size: ($baseFontSize/1.1);
+  line-height: ($baseLineHeight/1.2);
+}
+
+
+

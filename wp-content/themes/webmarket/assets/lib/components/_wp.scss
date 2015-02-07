@@ -1,0 +1,525 @@
+/*------------------------------------*\
+    WordPress overrides
+\*------------------------------------*/
+
+// navbar carets
+.navbar .nav li.dropdown .dropdown > .dropdown-toggle .caret {
+  border: 4px solid transparent;
+  border-left-color: $grayLight;
+  margin-top: 6px;
+  float: right;
+}
+
+
+// cf7
+div.wpcf7-response-output {
+  margin-left: 0;
+  margin-right: 0;
+}
+.wpcf7-form,
+.comment-form {
+  label {
+    margin-left: 15px;
+  }
+}
+
+// comment form submit btn
+%theme-btn {
+  text-transform: uppercase;
+  border: none;
+  font-weight: bold;
+  color: $white;
+  border-radius: 3px;
+  @extend %opensans;
+  filter: none;
+  @include box-shadow(0 2px 0 darken($theme, 17%));
+  @include buttonBackground($theme, $theme);
+
+  &:hover {
+    background: darken($theme,3%);
+  }
+}
+
+#submitWPComment,
+#searchsubmit {
+  @extend %theme-btn;
+  padding: 8px 14px;
+}
+
+
+// WooCommerce
+.woocommerce-pagination {
+  .current {
+    font-weight: bold;
+  }
+}
+.woocommerce-result-count {
+  margin-bottom: 5px;
+  margin-top: 20px;
+  text-align: center;
+  font-style: italic;
+}
+.woocommerce-ordering {
+  margin-bottom: 0;
+
+  .orderby {
+    margin-bottom: 0;
+  }
+}
+.img-overlay .added_to_cart {
+  display: none;
+}
+div.woocommerce {
+  h2 {
+    font-size: 20px;
+  }
+
+  table {
+    width: 100%;
+    @extend .blocks-spacer;
+
+    &.variations {
+      margin-bottom: 0;
+    }
+
+    // Cells
+    th,
+    td {
+      padding: 8px;
+      line-height: $baseLineHeight;
+      text-align: left;
+      vertical-align: middle;
+      border-top: 1px solid $tableBorder;
+    }
+    th {
+      font-weight: bold;
+    }
+    // Bottom align for column headings
+    thead th {
+      vertical-align: bottom;
+    }
+    // Remove top border from thead by default
+    caption + thead tr:first-child th,
+    caption + thead tr:first-child td,
+    colgroup + thead tr:first-child th,
+    colgroup + thead tr:first-child td,
+    thead:first-child tr:first-child th,
+    thead:first-child tr:first-child td {
+      border-top: 0;
+    }
+
+    // Nesting
+    table {
+      background-color: $bodyBackground;
+    }
+  }
+
+  .coupon {
+    float: left;
+
+    label {
+      display: none;
+    }
+  }
+  .product-remove {
+    font-size: 2.5em;
+    font-weight: bold;
+
+    a:hover {
+      text-decoration: none;
+    }
+  }
+  .product-thumbnail {
+    img {
+      width: 50px;
+      margin-bottom: 0;
+    }
+  }
+  input[type="submit"],
+  button,
+  .button {
+    @extend %theme-btn;
+    padding: 5px 10px;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  .actions {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: right;
+  }
+  .quantity {
+    [type="number"] {
+      width: 16px;
+      text-align: center;
+      margin-bottom: 0;
+    }
+    &.buttons_added {
+      display: inline-block;
+      position: relative;
+      padding-right: 21px;
+
+      .minus,
+      .plus {
+        border-radius: 3px;
+        margin: 0;
+        padding: 0;
+        border: none;
+        position: absolute;
+        right: 0;
+        width: 17px;
+        height: 17px;
+        font-weight: bold;
+        color: #fff;
+        background: $gray;
+        text-shadow: none;
+      }
+      .minus {
+        bottom: 0;
+      }
+      .plus {
+        top: 0;
+      }
+    }
+  }
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  .actions .input-text {
+    display: inline-block;
+    height: $baseLineHeight;
+    padding: 4px 6px;
+    margin-bottom: 0;
+    font-size: $baseFontSize;
+    line-height: $baseLineHeight;
+    color: $gray;
+    @include border-radius($inputBorderRadius);
+    vertical-align: middle;
+    background-color: $inputBackground;
+    border: 1px solid $inputBorder;
+    @include box-shadow(inset 0 1px 1px rgba(0,0,0,.075));
+    @include transition(border linear .2s, box-shadow linear .2s);
+    padding: 6px 12px;
+  }
+  .order-total {
+    font-size: 1.3em;
+    color: $titles;
+  }
+  .form-row {
+    .input-text {
+      width: calc(100% - 26px);
+    }
+  }
+  .checkbox {
+    display: inline-block;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-right: 5px;
+    font-size: inherit;
+  }
+  .cart {
+    .quantity {
+      margin-right: 20px;
+    }
+  }
+  .single_add_to_cart_button {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}
+.single_variation {
+  margin-bottom: 15px;
+
+  .price {
+    font-size: 20px;
+  }
+  del {
+    font-size: 0.7em;
+  }
+  .price > .amount,
+  ins {
+    color: $titles;
+    font-weight: bold;
+    text-decoration: none;
+  }
+}
+.commentlist {
+  list-style: none;
+  margin-left: 0;
+  margin-top: 20px;
+
+  .comment {
+    @include clearfix;
+    margin-bottom: 20px;
+  }
+
+  .avatar {
+    float: left;
+    width: 60px;
+  }
+  .comment-text {
+    float: right;
+    width: calc(100% - 110px);
+    background-color: $grayLighter;
+    padding: 10px 15px;
+    position: relative;
+
+    &:before {
+      position: absolute;
+      content: "";
+      top: 25px;
+      left: -10px;
+      border: 5px solid;
+      border-color: transparent $grayLighter transparent transparent;
+    }
+  }
+  .star-rating {
+    float: right;
+  }
+}
+#review_form_wrapper .comment-form {
+  label {
+    margin-left: 0;
+  }
+  #comment {
+    display: block;
+    width: 50%;
+  }
+  .stars {
+    a {
+      position: relative;
+      text-indent: -9999px;
+      display: inline-block;
+      font-family: FontAwesome;
+      font-style: normal;
+      font-weight: normal;
+      line-height: 1;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      border-right: 1px solid $borders;
+      margin-right: 1em;
+
+      &:before {
+        text-indent: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: $stars;
+      }
+    }
+    .star-1 {
+      width: 2em;
+
+      &:before {
+        content: "\f006";
+      }
+      &:hover:before,
+      &.active:before {
+        content: "\f005";
+      }
+    }
+    .star-2 {
+      width: 3em;
+
+      &:before {
+        content: "\f006 \f006";
+      }
+      &:hover:before,
+      &.active:before {
+        content: "\f005 \f005";
+      }
+    }
+    .star-3 {
+      width: 4em;
+
+      &:before {
+        content: "\f006 \f006 \f006";
+      }
+      &:hover:before,
+      &.active:before {
+        content: "\f005 \f005 \f005";
+      }
+    }
+    .star-4 {
+      width: 5em;
+
+      &:before {
+        content: "\f006 \f006 \f006 \f006";
+      }
+      &:hover:before,
+      &.active:before {
+        content: "\f005 \f005 \f005 \f005";
+      }
+    }
+    .star-5 {
+      width: 6em;
+
+      &:before {
+        content: "\f006 \f006 \f006 \f006 \f006";
+      }
+      &:hover:before,
+      &.active:before {
+        content: "\f005 \f005 \f005 \f005 \f005";
+      }
+    }
+  }
+}
+
+%woo-notices {
+  padding: 10px;
+  border-radius: 3px;
+}
+.woocommerce-error {
+  @extend %woo-notices;
+  margin: 0;
+  background-color: $errorBackground;
+  list-style: none;
+  border: 1px solid $errorBorder;
+  color: $errorText;
+}
+.woocommerce-message {
+  @extend %woo-notices;
+  background-color: $successBackground;
+  border: 1px solid $successBorder;
+  color: $successText;
+}
+.woocommerce-info {
+  @extend %woo-notices;
+  background-color: $infoBackground;
+  border: 1px solid $infoBorder;
+  color: $infoText;
+}
+.payment_methods {
+  list-style: none;
+  margin-left: 5px;
+
+  label {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-left: 10px;
+  }
+  .input-radio {
+    margin-top: 0;
+  }
+  .payment_box {
+    margin: 10px 0;
+    background: $grayLighter;
+    border-radius: 3px;
+    padding: 15px 15px 5px;
+    position: relative;
+
+    &:before {
+      position: absolute;
+      content: "";
+      top: 0;
+      height: 0;
+      left: 30px;
+      border: 5px solid;
+      border-color: transparent transparent $grayLighter transparent;
+      margin-top: -10px;
+    }
+  }
+}
+
+.myaccount_user,
+.col2-set,
+.customer_details,
+.cross-sells h2,
+.cart_totals,
+.woocommerce-error,
+.woocommerce-message,
+.woocommerce-info,
+.payment_methods,
+.related.products h2,
+.upsells.products h2 {
+  @extend .blocks-spacer;
+}
+.col2-set {
+  @include clearfix;
+
+  .col-1,
+  .col-2 {
+    width: 48%;
+    float: left;
+  }
+  .col-1 {
+    margin-right: 2%;
+  }
+  .col-2 {
+    margin-left: 2%;
+  }
+}
+.product_list_widget {
+  > li {
+    @include clearfix;
+
+    > a {
+      display: block;
+      font-weight: bold;
+    }
+  }
+  .wp-post-image {
+    width: 40px;
+    float: right;
+  }
+  .reviewer {
+    font-style: italic;
+  }
+}
+.price_slider_wrapper {
+  .price_slider {
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .price_label {
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: center;
+  }
+  .price_slider_amount .button {
+    width: 100%;
+  }
+}
+.sidebar-filters {
+  .price_slider_wrapper {
+    padding-top: 10px;
+  }
+  .price_slider {
+    margin-bottom: 5px;
+  }
+  .price_slider_amount {
+    button {
+      display: none !important;
+    }
+  }
+}
+.sidebar-item .categories-checkboxes ul {
+  margin-left: 8%;
+}
+
+
+// wpml
+.lang-currency {
+  height: 27px;
+}
+.topmost-line {
+  #lang_sel {
+    text-align: left;
+    height: auto;
+  }
+}
+
+// post image
+.wp-post-image {
+  margin-bottom: 20px;
+}
+
+// fix the numbers in ff <= 29
+input[type=number] {
+  -moz-appearance: textfield;
+}

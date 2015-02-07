@@ -1,0 +1,33 @@
+// misc styles
+
+// jQuery UI modifiers
+
+.jqueryui-slider-container {
+  padding: 9px;
+  margin-bottom: 3px;
+}
+.ui-slider-horizontal {
+  height: 0.6em;
+}
+.ui-widget-content {
+  border-color: $darkBorders;
+  @include box-shadow(inset 0 1px 2px $borders);
+}
+.ui-widget-header {
+  background: $theme;
+}
+.ui-slider-horizontal .ui-slider-handle {
+  top: -0.4em;
+  @include gradient-vertical($white, $borders);
+  
+  &:before {
+    display: block;
+    content: "";
+    bottom: 0;
+    left: 5px;
+    width: 100%;
+    height: 100%;
+    @include background(linear-gradient(center left, $darkBorders 0%, $darkBorders 25%, transparent 25%, transparent 100%) repeat-x center center);
+    @include background-size(4px 8px);
+  }
+}

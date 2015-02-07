@@ -1,0 +1,25 @@
+#!/bin/sh
+
+BASEDIR=$(dirname $0)
+# echo $BASEDIR/
+
+# delete the current translation
+rm $BASEDIR/*.pot
+
+# move unwanted folders
+mv $BASEDIR/../option-tree/ $BASEDIR/../../.
+mv $BASEDIR/../bower_components/ $BASEDIR/../../.
+mv $BASEDIR/../node_modules/ $BASEDIR/../../.
+
+# execute
+php $BASEDIR/../_misc/translate/makepot.php wp-theme $BASEDIR/../.
+
+# move .pot file to right dir
+mv *.pot $BASEDIR/
+
+# move back folders
+mv $BASEDIR/../../option-tree/ $BASEDIR/../.
+mv $BASEDIR/../../bower_components/ $BASEDIR/../.
+mv $BASEDIR/../../node_modules/ $BASEDIR/../.
+
+exit 0
